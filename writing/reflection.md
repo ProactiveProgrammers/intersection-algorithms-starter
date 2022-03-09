@@ -1,10 +1,18 @@
 # Intersection Algorithms
 
+TODO: Make sure that you delete all of the TODO markers inside of this file
+while also delete and/or repurposing all of the prompts in the document. The
+final version of this file should contain professionally written text that
+does not have any mistakes in spelling, grammar, technical meaning, or format.
+
 ## Add Your Name Here
 
 ## Program Output
 
 ### Use eight fenced code blocks to provide output from eight different runs of `intersection` with different inputs
+
+TODO: Place all of the outputs from running the `intersection` program
+in the following sub-sub-sub-sub sections provided below.
 
 TODO: Summary of the runs for the List-based algorithms:
 
@@ -77,10 +85,10 @@ TODO: Use a fenced code block to provide the requested source code
 TODO: Write at least one paragraph to explain the request source code
 TODO: Explain each line of source code in this function
 
-### What was the greatest challenge that you faced when completing this assignment?
+### What are the benefits to conducting experiments to evaluate a program's performance?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
 
-### Leveraging your response to the previous question, how did you overcome the challenge?
+### What are the drawbacks of conducting experiments to evaluate a program's performance?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
