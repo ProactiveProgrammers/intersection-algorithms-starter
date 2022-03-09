@@ -1,7 +1,7 @@
 # Intersection Algorithms
 
-## Assigned: Thursday, September 23, 2021
-## Due: Thursday, October 7, 2021
+## Assigned: Wednesday, March 9, 2022
+## Due: Wednesday, March 16, 2022
 
 After cloning this repository to your computer, please take the following steps:
 
