@@ -107,6 +107,7 @@ def intersection(
     approach: IntersectionApproach = IntersectionApproach.tuple_single,
 ) -> None:
     """Compute the intersection of data containers."""
+    # TODO: make sure that you understand how this function works
     # create a console for rich text output
     console = Console()
     # create the starting data containers with no contents
