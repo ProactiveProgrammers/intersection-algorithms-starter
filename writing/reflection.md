@@ -85,10 +85,20 @@ TODO: Use a fenced code block to provide the requested source code
 TODO: Write at least one paragraph to explain the request source code
 TODO: Explain each line of source code in this function
 
-### What are the benefits to conducting experiments to evaluate a program's performance?
+## Professional Reflection
+
+### In the context of Python programming, what are your greatest strengths and weaknesses?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
 
-### What are the drawbacks of conducting experiments to evaluate a program's performance?
+### In the context of running performance experiments, what are your greatest strengths and weaknesses?
+
+TODO: Provide a one-paragraph response that answers this question in your own words.
+
+### Leveraging your response to the previous question, how did you overcome the challenge?
+
+TODO: Provide a one-paragraph response that answers this question in your own words.
+
+### Give an example of a truth that you once thought was simple, but that now you think is more complex and nuanced than you realized. Use your example to explain why the deep investigation of computer program performance is essential for proactive programmers.
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
