@@ -78,6 +78,7 @@ def compute_intersection_tuple_double(
 ) -> Tuple[Any, ...]:
     """Compute the intersection of two provided lists."""
     result: Tuple[Any, ...] = ()
+    # TODO: make sure that you understand how this function works
     for x in input_one:
         for y in input_two:
             if x == y:
@@ -90,6 +91,7 @@ def compute_intersection_tuple_single(
 ) -> Tuple[Any, ...]:
     """Compute the intersection of two provided tuples."""
     result: Tuple[Any, ...] = ()
+    # TODO: make sure that you understand how this function works
     for element in input_one:
         if element in input_two:
             result += (element,)
