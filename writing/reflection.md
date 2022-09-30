@@ -89,16 +89,16 @@ TODO: Explain each line of source code in this function
 
 ### In the context of Python programming, what are your greatest strengths and weaknesses?
 
-Note: Provide a one-paragraph response that answers this question in your own words.
+TODO: Provide a one-paragraph response that answers this question in your own words.
 
 ### In the context of running performance experiments, what are your greatest strengths and weaknesses?
 
-Note: Provide a one-paragraph response that answers this question in your own words.
+TODO: Provide a one-paragraph response that answers this question in your own words.
 
 ### Leveraging your response to the previous question, how did you overcome the challenge?
 
-Note: Provide a one-paragraph response that answers this question in your own words.
+TODO: Provide a one-paragraph response that answers this question in your own words.
 
 ### Give an example of a truth that you once thought was simple, but that now you think is more complex and nuanced than you realized. Use your example to explain why the deep investigation of computer program performance is essential for proactive programmers.
 
-Note: Provide a one-paragraph response that answers this question in your own words.
+TODO: Provide a one-paragraph response that answers this question in your own words.
