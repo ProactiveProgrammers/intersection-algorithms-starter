@@ -9,8 +9,6 @@ from typing import Union
 
 from enum import Enum
 
-import random
-
 import typer
 
 from rich.console import Console
