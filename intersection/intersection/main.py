@@ -25,10 +25,10 @@ profiler = Profiler()
 class IntersectionApproach(str, Enum):
     """Define the name for the approach for performing intersection of structured types."""
 
-    list_single = "ListSingle"
-    tuple_single = "TupleSingle"
-    list_double = "ListDouble"
-    tuple_double = "TupleDouble"
+    LIST_SINGLE = "ListSingle"
+    TUPLE_SINGLE = "TupleSingle"
+    LIST_DOUBLE = "ListDouble"
+    TUPLE_DOUBLE = "TupleDouble"
 
 
 def human_readable_boolean(answer: bool) -> str:
@@ -50,6 +50,7 @@ def generate_random_container(
     # TODO: if the make_tuple parameter is True, then return a tuple instead of a list
     # TODO: delete this placeholder return statement
     return ()
+
 
 def compute_intersection_list_double(
     input_one: List[Any], input_two: List[Any]
@@ -104,7 +105,7 @@ def intersection(
     maximum: int = typer.Option(25),
     profile: bool = typer.Option(False),
     display: bool = typer.Option(False),
-    approach: IntersectionApproach = IntersectionApproach.tuple_single,
+    approach: IntersectionApproach = IntersectionApproach.TUPLE_SINGLE,
 ) -> None:
     """Compute the intersection of data containers."""
     # TODO: make sure that you understand how this function works
@@ -116,7 +117,7 @@ def intersection(
     # create a starting output variable for the intersection computation
     intersection_output: Union[List[Any], Tuple[Any, ...]]
     # TupleSingle: the intersection algorithm that works on an input list
-    if approach.value == IntersectionApproach.tuple_single:
+    if approach.value == IntersectionApproach.TUPLE_SINGLE:
         # generate the two inputs consisting of random values
         input_one = generate_random_container(number, maximum, make_tuple=True)
         input_two = generate_random_container(number, maximum, make_tuple=True)
@@ -133,7 +134,7 @@ def intersection(
                 tuple(input_one), tuple(input_two)
             )
     # TupleDouble: use the intersection algorithm that works on an input tuple
-    elif approach.value == IntersectionApproach.tuple_double:
+    elif approach.value == IntersectionApproach.TUPLE_DOUBLE:
         # generate the two tuples of random values
         input_one = generate_random_container(number, maximum, make_tuple=True)
         input_two = generate_random_container(number, maximum, make_tuple=True)
@@ -150,7 +151,7 @@ def intersection(
                 tuple(input_one), tuple(input_two)
             )
     # ListSingle: the intersection algorithm that works on an input list
-    elif approach.value == IntersectionApproach.list_single:
+    elif approach.value == IntersectionApproach.LIST_SINGLE:
         # generate the two inputs consisting of random values
         input_one = generate_random_container(number, maximum, make_tuple=False)
         input_two = generate_random_container(number, maximum, make_tuple=False)
@@ -167,7 +168,7 @@ def intersection(
                 list(input_one), list(input_two)
             )
     # ListDouble: use the intersection algorithm that works on an input list
-    elif approach.value == IntersectionApproach.list_double:
+    elif approach.value == IntersectionApproach.LIST_DOUBLE:
         # generate the two inputs consisting of random values
         input_one = generate_random_container(number, maximum, make_tuple=False)
         input_two = generate_random_container(number, maximum, make_tuple=False)
