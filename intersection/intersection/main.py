@@ -1,4 +1,4 @@
-"""Perform an experiment to study efficiency of intersection."""
+"""Perform an experiment to study efficiency of intersection with both lists and tuples."""
 
 from pyinstrument import Profiler  # type: ignore
 
