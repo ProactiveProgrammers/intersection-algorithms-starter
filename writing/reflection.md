@@ -95,7 +95,7 @@ TODO: Provide a one-paragraph response that answers this question in your own wo
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
 
-### Leveraging your response to the previous questions, how did you overcome the challenge?
+### What is one challenge you faced when completing this assignment and how did you overcome it?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
 
