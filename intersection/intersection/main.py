@@ -2,10 +2,7 @@
 
 from pyinstrument import Profiler  # type: ignore
 
-from typing import Any
-from typing import List
-from typing import Tuple
-from typing import Union
+# TODO: Add all of the required imports for the type annotations
 
 from enum import Enum
 
